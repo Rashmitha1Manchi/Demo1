@@ -10,6 +10,7 @@ function fetchUserData(userId) {
         }, 1000);
     });
 }
+
 function fetchPostsForUser(user) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
